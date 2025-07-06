@@ -6,12 +6,12 @@
   "name": "Just An End Anchor",
   "description": "Adds a new End Anchor Item that makes it possible to respawn in the end!",
   "authors": [
-    "KxmischesDomi",
+    "DomiIRL",
     "Eudacye"
   ],
   "contact": {
-    "sources": "https://github.com/KxmischesDomi/EndAnchor",
-    "issues": "https://github.com/KxmischesDomi/EndAnchor/issues",
+    "sources": "https://github.com/DomiIRL/EndAnchor",
+    "issues": "https://github.com/DomiIRL/EndAnchor/issues",
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/just-an-end-anchor"
   },
 
@@ -21,10 +21,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "de.kxmischesdomi.just_end_anchor.EndAnchorMod"
+      "dev.svrt.domiirl.just_end_anchor.EndAnchorMod"
     ],
     "client": [
-      "de.kxmischesdomi.just_end_anchor.client.EndAnchorModClient"
+      "dev.svrt.domiirl.just_end_anchor.client.EndAnchorModClient"
     ]
   },
   "mixins": [
@@ -32,6 +32,6 @@
   ],
 
   "depends": {
-    "minecraft": "1.20.x"
+    "minecraft": ">=1.21.6 <=1.21.7"
   }
 }
