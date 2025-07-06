@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:end/enter_end_gateway",
+  "display": {
+    "icon": {
+      "id": "just_end_anchor:end_anchor",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancements.end.charge_end_anchor.title"
+    },
+    "description": {
+      "translate": "advancements.end.charge_end_anchor.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "charge_end_anchor": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "just_end_anchor:end_anchor"
+                ],
+                "state": {
+                  "charges": "4"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:ender_pearl"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "charge_end_anchor"
+    ]
+  ]
+}

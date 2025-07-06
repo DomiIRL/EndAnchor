@@ -15,7 +15,7 @@
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/just-an-end-anchor"
   },
 
-  "license": "GNU GPLv3",
+  "license": "tr7zw Protective License",
   "icon": "assets/just_end_anchor/icon.png",
 
   "environment": "*",
@@ -30,7 +30,7 @@
   "mixins": [
     "just_end_anchor.mixins.json"
   ],
-
+  "accessWidener": "just_end_anchor.accesswidener",
   "depends": {
     "minecraft": ">=1.21.6 <=1.21.7"
   }

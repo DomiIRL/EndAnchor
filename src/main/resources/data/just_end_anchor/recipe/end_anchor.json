@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "ECE",
+    "EEE"
+  ],
+  "key": {
+    "P": "minecraft:purpur_block",
+    "E": "minecraft:end_stone_bricks",
+    "C": "minecraft:end_crystal"
+  },
+  "result": {
+    "id": "just_end_anchor:end_anchor",
+    "count": 1
+  }
+}

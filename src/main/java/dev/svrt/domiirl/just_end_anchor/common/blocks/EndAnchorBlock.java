@@ -1,7 +1,6 @@
 package dev.svrt.domiirl.just_end_anchor.common.blocks;
 
 import dev.svrt.domiirl.just_end_anchor.common.entities.EndAnchorBlockEntity;
-import dev.svrt.domiirl.just_end_anchor.common.registry.ModBlockEntities;
 import dev.svrt.domiirl.just_end_anchor.common.registry.ModBlocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -19,7 +18,10 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.*;
-import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DispenserBlock;
+import net.minecraft.world.level.block.EntityBlock;
+import net.minecraft.world.level.block.RespawnAnchorBlock;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.FluidState;
@@ -29,7 +31,6 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.Optional;
-
 
 public class EndAnchorBlock extends RespawnAnchorBlock implements EntityBlock {
 
