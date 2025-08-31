@@ -32,6 +32,6 @@
   ],
   "accessWidener": "just_end_anchor.accesswidener",
   "depends": {
-    "minecraft": ">=1.21.6 <=1.21.7"
+    "minecraft": ">=1.21.6 <=1.21.8"
   }
 }
